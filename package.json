@@ -1,0 +1,38 @@
+{
+  "name": "url-shortener-node-express-lowdb",
+  "version": "0.1.0",
+  "description": "url-shortener using nodeJS express and lowdb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsamaya/url-shortener-node-express-lowdb.git"
+  },
+  "keywords": [
+    "url",
+    "short",
+    "shortener",
+    "shortner",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsamaya/url-shortener-node-express-lowdb/issues"
+  },
+  "homepage": "https://github.com/tsamaya/url-shortener-node-express-lowdb#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lowdb": "^0.16.2",
+    "shortid": "^2.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}

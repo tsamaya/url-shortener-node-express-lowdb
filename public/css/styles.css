@@ -1,0 +1,76 @@
+.btn:focus, .btn-shortener:focus{
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #0084CA;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn-shortener {
+  color: #ffffff;
+  background-color: #FF5E00;
+  border: none;
+}
+
+.btn-shortener:hover,
+.btn-shortener:focus,
+.btn-shortener:active,
+.btn-shortener.active {
+  color: #ffffff;
+  background-color: #F93822;
+  border: none;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+}
+
+.container {
+  padding: 30px;
+}
+
+.container h1 {
+  margin-top: 5px;
+}
+.container h4 {
+  padding-bottom: 30px;
+}
+
+.glyphicon-link {
+  font-size: 2em;
+}
+
+#link {
+  display: none;
+  padding-top: 15px;
+}
+
+#link a{
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+    max-width: 1000px;
+  }
+}
